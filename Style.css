@@ -1,5 +1,5 @@
 header{
-  background-color: rgb(138, 0, 180);
+  background-color: #54426b;
   padding: 20px;
 }
 
@@ -22,12 +22,19 @@ nav{
   display: inline-block;
 }
 
+.logo:hover {
+  transform: scale(1.02);
+}
+
 .nav-links {
   list-style: none;
   display: flex;
 }
 
 .nav-item a {
+  font-family: 'QuickSand';
+  font-weight: bolder;
+  src: url('Font/Quicksand-VariableFont_wght.ttf');
   display: inline-block;
   padding: 10px 15px;
   text-decoration: none;
@@ -35,8 +42,9 @@ nav{
 }
 
 .nav-item:hover {
-  background-color: rgb(137, 54, 181);
+  background-color: #db324d;
   border-radius: 15px;
+  transform: scale(1.05);
 }
 
 .nav-item:hover a {
@@ -53,5 +61,22 @@ nav a{
   color: white;
   font-weight: bold;
   text-decoration: none;
+}
 
+main{
+  background-color: #db324d;
+  height: 110vh;
+}
+
+.banner{
+  width: 100%;
+  max-height: 750px;
+}
+
+main img{
+  Object-fit: cover;
+}
+
+.spacer {
+  margin-top: 10px;
 }
