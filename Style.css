@@ -65,18 +65,64 @@ nav a{
 
 main{
   background-color: #db324d;
-  height: 110vh;
+  height: 310vh;
 }
 
 .banner{
   width: 100%;
   max-height: 750px;
+  position: absolute;
 }
 
 main img{
   Object-fit: cover;
 }
 
-.spacer {
-  margin-top: 10px;
+.titular{
+  width: 500px;
+  height: auto;
+  position: relative;
+  top: 150px;
+  background-color: rgba(255, 255, 255, 28%);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.titular h1,p{
+  text-align: center;
+    color: #54426b
+}
+
+.titular h1{
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'QuickSand';
+}
+
+.titular p{
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'QuickSand';
+  font-weight: Bold;
+  line-height: 20px;
+  margin: 20px;
+}
+
+.rs-links {
+  list-style: none;
+  display: flex;
+}
+
+.rs-items a {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.rs-items img{
+  height: 30px;
+  width: auto;
+}
+
+.rs-items:hover {
+  transform: scale(1.05);
 }
