@@ -848,3 +848,39 @@ footer h2{
     grid-row-start: 11;
     grid-row-end: 12;
   }
+
+/**/
+
+.gallery__item--89{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.gallery__item--89 img{
+  border-radius: 10px;
+}
+
+.gallery__item--90{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.correo{
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.gallery__item--91{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.links{
+display: flex;
+justify-content: space-around;
+}
